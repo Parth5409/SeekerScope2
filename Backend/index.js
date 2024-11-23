@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://seekerscope.onrender.com",
+  origin: "https://seeker-scope2.vercel.app",
   credentials: true,
 };
 app.use(cors(corsOptions)); // CORS applied here
